@@ -42,9 +42,6 @@ def main(_):
     logger = logging.getLogger(__name__)
     logger.addHandler(logging.StreamHandler())
     logger.setLevel(logging.INFO)
-
-    with open('config.yml', 'r') as ymlconfig:
-        conf = yaml.load(ymlconfig)
     
     # Load NLP libraries
     logger.info('Loading NLP library')
