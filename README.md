@@ -10,7 +10,7 @@ Jack was my family's cat for the last thirteen years. After a trip to the emerge
 
 ## Technology Overview
 
-The app is built on top of [TensorFlow](https://www.tensorflow.org/) and uses its command line interface functionality. The image caption generator that JackSearch uses is from the [im2txt](https://github.com/tensorflow/models/tree/master/im2txt) model implementation in TensorFlow. The natural language processing is accomplished via [spaCy](https://spacy.io/) and the [GloVe](http://nlp.stanford.edu/projects/glove/) word vectors.
+The app is built on top of [TensorFlow](https://www.tensorflow.org/) and uses its command line interface functionality. The image caption generator that JackSearch uses is from the [im2txt](https://github.com/tensorflow/models/tree/master/im2txt) model implementation in TensorFlow. A modified version of im2txt is included in this repository which modifies the code to work with the linked model below and Python 3+. The natural language processing is accomplished via [spaCy](https://spacy.io/) and the [GloVe](http://nlp.stanford.edu/projects/glove/) word vectors.
 
 
 ## Install
