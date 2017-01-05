@@ -1,0 +1,17 @@
+<h1>JackSearch Results</h1>
+<h2>Search Phrase: {{ phrase }} </h2>
+
+<table>
+<tr>
+	<th>Image</th>
+	<th>Inferred Description</th>
+	<th>Relevance</th>
+<tr>
+{% for image in images %}
+<tr>
+	<td><a href="{{ image.0 }}"> {{image.0}}</a></td>
+	<td>{{image.1}}</td>
+	<td>{{image.2}}</td>
+</tr>
+{% endfor %}
+</table>
