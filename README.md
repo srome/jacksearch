@@ -39,9 +39,9 @@ python -m spacy.en.download glove
 ```
 
 ### 3) Run Example
-'''shell
+```shell
 python main.py --base_dir=/path/to/your/directory \
  --search_phrase="Cats sitting on a bed" \
  --model_file=/path/to/your/model/checkpoint \
  --vocab_file=/path/to/your/vocab/file
-'''
+```
