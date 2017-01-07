@@ -30,9 +30,9 @@ tf.flags.DEFINE_string("search_phrase", "cat",
 tf.flags.DEFINE_string("base_dir", None,
                        "Base directory to search in (includes subdirectories).")
 tf.flags.DEFINE_string("model_file", "",
-                       "Locaion of the model checkpoint file.")
+                       "Location of the model checkpoint file.")
 tf.flags.DEFINE_string("vocab_file", "",
-                       "Locaion of the vocabulary file.")
+                       "Location of the vocabulary file.")
 
 def main(_):
     # Import config
